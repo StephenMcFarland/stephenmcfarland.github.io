@@ -40,7 +40,7 @@
   $("#content-1, #content-2").removeClass("bgc");
   });
   $("#contact").click(function(){
-    $("#content-1").html("<form action='https://formspree.io/snmcfarland@gmail.com' method='POST' role='form'><b><h5><b>Tell me your name. </b></h5><input type='text' name='name' size='40'><h5><b>Leave your contact information.</b></h5><input type='text' name='contact' size='40'><h5><b>What is your message?</b></h5><textarea name='message' rows='10' cols='40'></textarea><input type='button' value='Submit'></b></form>");
+    $("#content-1").html("<form id='contact-form' action='https://formspree.io/snmcfarland@gmail.com' method='POST' role='form'><b><h5><b>Tell me your name. </b></h5><input type='text' name='name' size='40'><h5><b>Leave your contact information.</b></h5><input type='text' name='contact' size='40'><h5><b>What is your message?</b></h5><textarea name='message' rows='10' cols='40'></textarea><input type='button' value='Submit'></b></form>");
     $("#content-2").html("");
     $("#content-3").html("");
     $("#content-1").addClass("bgc");
@@ -151,9 +151,9 @@
         </div>
       </div>
 
-      <div class="container bgc">
-      <form action='https://formspree.io/snmcfarland@gmail.com' method='POST'><b><h5><b>Tell me your name. </b></h5><input type='text' name='name' size='40'><h5><b>Leave your contact information.</b></h5><input type='text' name='contact' size='40'><h5><b>What is your message?</b></h5><textarea name='message' rows='10' cols='40'></textarea><input type='button' value='Submit'></b></form>
-    </div>
+      <!-- <div class="container bgc">
+      <form id="contact-form" action='https://formspree.io/snmcfarland@gmail.com' method='POST' role="form"><b><h5><b>Tell me your name. </b></h5><input type='text' name='name' size='40'><h5><b>Leave your contact information.</b></h5><input type='text' name='contact' size='40'><h5><b>What is your message?</b></h5><textarea name='message' rows='10' cols='40'></textarea><input type='button' value='Submit'></b></form>
+    </div> -->
 
     <div class="container bgc">
       <div>&copy; Stephen McFarland | (317) 210-0086 | <i class="fab fa-google" aria-hidden="true"></i> <a href="mailto:snmcfarland@gmail.com">Email</a> | <i class="fab fa-linkedin-in"></i> <a href="https://www.linkedin.com/in/snmcfarland" target="blank">/snmcfarland</a> | <i class="fab fa-github"> </i> <a href="https://github.com/StephenMcFarland">github.com/StephenMcFarland</a></div>
