@@ -25,6 +25,10 @@ body {
 } */
 
 
+h5{
+  padding: 5px;
+}
+
 .navbar{
   font-family: 'Raleway', sans-serif;
 }
