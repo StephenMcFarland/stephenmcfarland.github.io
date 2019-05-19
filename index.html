@@ -34,10 +34,10 @@
   });
   $("#about").click(function(){
     $("#content-3").html("<h1>About</h1><h4>I've always been intrigued by the workings of computers and the power behind the Internet. Lucky me, my high school offered a web design course in 1998. We used Microsoft Word on machines running Windows 95 to render our work by the standard <i>What you see is what you get</i>. Boy, have we come a long way in standards! In the last few years I would say we have really simplified many steps that used to take a great deal of time to accomplish. I launched my career in tech support, web development, and instructional design. But soon took a detour through the k-12 Education space. I'm ready for new challenges, loving every bit of this journey at Eleven Fifty Academy. Onward march.</h4>");
-  $("#content-2").html("");
+  $("#content-2").html("<img src='about.jpg' class='about'/>");
   $("#content-1").html("");
-  $("#content-3").addClass("bgc");
-  $("#content-1, #content-2").removeClass("bgc");
+  $("#content-3, #content-2").addClass("bgc");
+  $("#content-1").removeClass("bgc");
   });
   $("#contact").click(function(){
     $("#content-1").html("<form action='https://formspree.io/snmcfarland@gmail.com' method='POST'><h1>Contact</h1><h5><b>Tell me your name. </b></h5><input type='text' name='Name' size='40'><h5><b>Leave your contact information.</b></h5><input type='text' name='Contact' size='40'><h5><b>What is your message?</b></h5><textarea name='Message' rows='10' cols='40'></textarea><input type='submit' class='btn btn-primary btn-send' value='Submit'></b></form>");
@@ -54,7 +54,9 @@
   
     <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark container-fluid navbar-fixed-top"> -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary container-fluid fixed-top">
-    <a class="navbar-brand" href="#"><img class="profile" src="profile.jpg" />Stephen McFarland</a> 
+    <a class="navbar-brand" href="#">
+      <!-- <img class="profile" src="profile.jpg" /> -->
+      Stephen McFarland</a> 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
